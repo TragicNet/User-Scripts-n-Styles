@@ -2,7 +2,7 @@
 // @name         Grab Mods Requiring Links
 // @namespace    http://tampermonkey.net/
 // @version      2024-03-27
-// @description  Copies 'mods requiring this mod' links to clipboard, you can then keep them or open them using multiple url openers, your choice. I won't add that feature to make this lightweight.
+// @description  Adds a button in requirements which copies 'mods requiring this mod' links to clipboard, you can then keep them or open them using multiple url openers, your choice. I won't add that feature to make this lightweight.
 // @author       TragicNet
 // @include      /^https:\/\/www\.nexusmods\.com\/.*\/mods\/(?!$)\d+$/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=nexusmods.com
