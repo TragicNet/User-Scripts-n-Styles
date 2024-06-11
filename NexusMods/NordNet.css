@@ -2,8 +2,9 @@
 @name           nexusmods.com - Mar 2024
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    A new userstyle
+@description    A Nord themed style for nexus mods, a lot of tweaks, including one for easy access search filter. This is the first version, not all pages and sections have been modified yet, but the mostly used are. Hope you like it, and recommend any changes.
 @author         TragicNet
+@license      MIT
 ==/UserStyle== */
 	@-moz-document /* domain("next.nexusmods.com"), */
 	domain("nexusmods.com") {
@@ -200,7 +201,7 @@
 			.rj-notifications-tray .arrow {
 				right: 50px;
 			}
-			
+
 			.rj-right-tray,
 			.rj-profile-tray-content {
 				background: var(--bg-0);
@@ -404,7 +405,7 @@
 
 					.search-terms {
 						margin-top: 10px;
-						
+
 						li {
 							color: var(--ac-0);
 							background-color: var(--bg-1);
