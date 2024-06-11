@@ -393,7 +393,7 @@
 			}
 
 			.resultpage {
-				margin-top: calc(var(--header-height)*2);
+				margin-top: var(--header-height);
 			}
 
 			.resultpage .wrap:first-of-type {
