@@ -221,6 +221,7 @@
 				* {
 					color: color: var(--fg-0);
 				}
+				outline: none !important;
 				margin: 0;
 
 				.rj-search-input {
