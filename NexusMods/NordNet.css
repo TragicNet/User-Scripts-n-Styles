@@ -9,7 +9,15 @@
 @-moz-document /* domain("next.nexusmods.com"), */
 domain("nexusmods.com") {
 	/* Core */
-	/* 	:root, */
+	:root {
+		--bg-0: #161a21;
+		--bg-1: #1c2028;
+		--fg-0: #eee;
+		--fg-1: #d6d6d6;
+		--ac-0: #a8afbd;
+		--ac-1: #c5c9d3;
+	}
+
 	body {
 		--bg-0: #161a21;
 		--bg-1: #1c2028;
@@ -127,6 +135,7 @@ domain("nexusmods.com") {
 	}
 
 	header {
+		box-shadow: none !important;
 		background: var(--bg-0) !important;
 		height: auto !important;
 		padding: 0 1% !important;
@@ -152,7 +161,6 @@ domain("nexusmods.com") {
 
 		.rj-nav {
 			height: var(--header-height);
-			
 		}
 
 		.rj-nav-item.rj-nav-game {
@@ -250,11 +258,10 @@ domain("nexusmods.com") {
 
 				.rj-search-category-dropdown {
 					background: var(--bg-0);
-					
+
 					li:hover {
 						background: var(--bg-1);
 					}
-					
 				}
 			}
 
@@ -332,11 +339,20 @@ domain("nexusmods.com") {
 		margin-top: var(--header-height);
 		padding: 0;
 		padding-bottom: 20px;
+		
 		#featured h1 {
 			margin: 0px;
 		}
+
 		#feature::before {
 			background: var(--bg-0);
+		}
+
+		#nofeature {
+			background: var(--bg-0) !important;
+			#pagetitle {
+				background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, var(--bg-0) 100%) !important;
+			}
 		}
 
 		#feature .gradient {
