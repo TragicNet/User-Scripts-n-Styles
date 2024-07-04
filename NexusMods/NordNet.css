@@ -4,7 +4,8 @@
 @version        1.0.0
 @description    A Nord themed style for nexus mods, a lot of tweaks, including one for easy access search filter. This is the first version, not all pages and sections have been modified yet, but the mostly used are. Hope you like it, and recommend any changes.
 @author         TragicNet
-@license      MIT
+@license	MIT
+@updateURL	https://github.com/TragicNet/GreasyFork-Scripts-n-Styles/edit/master/NexusMods/NordNet.css
 ==/UserStyle== */
 @-moz-document /* domain("next.nexusmods.com"), */
 domain("nexusmods.com") {
