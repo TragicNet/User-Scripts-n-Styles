@@ -72,6 +72,7 @@ domain("nexusmods.com") {
 		--rj-secondary-button-hover: #aaa;
 		--rj-secondary-button-focus: #bbb;
 		--colour-surface-low: var(--bg-0) !important;
+		--colour-surface-translucent-mid: var(--bg-0t) !important;
 
 
 		--header-height: 40px;
@@ -141,7 +142,7 @@ domain("nexusmods.com") {
 		padding: 0 1% !important;
 
 		a {
-			height: 100% !important;
+/* 				height: 100% !important; */
 		}
 
 		.headlogo {
@@ -162,15 +163,20 @@ domain("nexusmods.com") {
 		.rj-nav {
 			height: var(--header-height);
 		}
+		
+		.nav-current-game * {
+			border-color: var(--bg-1) !important;
+			background: var(--bg-0) !important;
+		}
 
-		.rj-nav-item.rj-nav-game {
+/* 			.rj-nav-item.rj-nav-game {
 			padding-right: 24px;
 			border-color: transparent;
 		}
 
 		.rj-nav-item:not(.rj-nav-game) {
 			border-radius: 8px;
-		}
+		} */
 
 		.rj-nav-item:hover {
 			background: none;
@@ -298,10 +304,11 @@ domain("nexusmods.com") {
 		width: 100%;
 		z-index: 12;
 	}
-		
+	
 	body.mods #maintenance_banner {
 		top: 80px;
 	}
+	
 
 	li {
 		border-color: var(--bg-1) !important;
