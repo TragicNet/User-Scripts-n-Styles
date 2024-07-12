@@ -759,7 +759,8 @@ domain("nexusmods.com") {
 	.premium-banner,
 	.section,
 	.ads,
-	footer {
+	footer,
+	#nonPremiumBanner {
 		display: none !important;
 	}
 
