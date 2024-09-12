@@ -1,0 +1,155 @@
+/* ==UserStyle==
+@name           NordNet
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A Nord themed style for Twitter aka X
+@author         TragicNet
+@license	MIT
+@updateURL	https://github.com/TragicNet/User-Scripts-n-Styles/edit/master/Twitter/NordNet.css
+==/UserStyle== */
+@-moz-document domain("x.com") {
+	:root {
+		--bg-0: #161a21;
+		--bg-1: #1c2028;
+		--fg-0: #eee;
+		--fg-1: #d6d6d6;
+		--ac-0: #a8afbd;
+		--ac-1: #c5c9d3;
+		--ac-2: #8b94a7;
+	}
+
+	html {
+		overscroll-behavior: none;
+	}
+
+/* 	.r-1xfd6ze, */
+	.r-11yh6sk,
+	body {
+		background-color: var(--bg-0) !important;
+	}
+
+	/* 	body {
+		background: url("https://pbs.twimg.com/media/GEObtH5bAAAkvCk?format=jpg&name=4096x4096") fixed center;
+		background-size: cover;
+	} */
+	.r-kemksi {
+		background-color: var(--bg-0);
+		border: none !important;
+	}
+
+	nav.r-1igl3o0 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a[aria-selected="true"] {
+		background: var(--bg-1);
+
+		.r-hdaws3 {
+			background: none !important;
+		}
+	}
+
+	.r-mipnz4 {
+		background-color: var(--bg-0);
+		border: 1px solid var(--bg-1);
+	}
+
+	.r-pl9uj3,
+	.r-1peqgm7,
+	.r-pjtv4k,
+	.r-g2wdr4,
+	.r-1hdo0pc {
+		background-color: var(--bg-1);
+	}
+
+	.r-z32n2g,
+	button[style*="rgba(0, 0, 0, 0.75);"],
+	.r-htvplk > div:nth-child(1) > div:nth-child(1) > div:nth-child(1),
+	.r-1cuuowz {
+		background-color: transparent !important;
+	}
+
+	button[style*="rgba(0, 0, 0, 0.75);"]:hover {
+		background-color: var(--bg-1) !important;
+	}
+
+
+	div[role="dialog"],
+	.r-5zmot {
+		background-color: var(--bg-0);
+		border: none !important;
+	}
+
+	.r-qo02w8 {
+		background-color: var(--bg-0);
+		border: 1px solid var(--bg-1) !important;
+		box-shadow: none;
+	}
+
+	.r-1igl3o0 {
+		border: none;
+	}
+
+	/* 	Theme Colors */
+	div[role="radio"]/* poll options */
+	div[role="status"] > *:not([data-testid="thumbnail"]),
+	/* new tweets alert (no reply restrictions) */
+	[data-testid="Dropdown"],
+	/* dropdowns */
+	div[role="listbox"]/* search results */
+	{}
+
+
+	select/* built-in browser dropdowns*/
+	{
+		background: var(--ac-0) !important;
+	}
+
+	div[role="radio"] {
+		border: 1px solid var(--ac-0) !important;
+	}
+
+	.r-yuvema,
+	.r-1vtznih,
+	button[style*="rgb(29, 155, 240);"]:not(.css-146c3p1):not(.css-1jxf684),
+	/* most large buttons (no translate) */
+	[aria-label="Post"],
+	/* Post button */
+	[href="/messages/compose"],
+	/* New message button */
+	::selection,
+	/* text highlight */
+	.r-l5o3uw,
+	/* DMs bubbles */
+	.r-m5arl1,
+	/* thread line */
+	.r-hdaws3,
+	/* feed tab selected */
+	.r-615f2u {
+		/* home icon badge */
+		background: var(--ac-0) !important;
+		box-shadow: none;
+	}
+	
+	/* text highlight */
+	.r-l5o3uw {
+		background: var(--ac-2) !important;
+	}
+
+	[data-testid="searchPeople_label"] > *,
+	[style*="color: rgb(29, 155, 240)"],
+	/*tweet composer, sidebar, show .. posts, mentions */
+	svg[aria-label="Verified account"],
+	/* verified check */
+	.r-1cvl2hr {
+		/* search bar magnifying glass*/
+		color: var(--ac-0) !important;
+	}
+
+	/* 	Removal */
+	nav a[aria-label="Grok"],
+	nav a[aria-label="Search and explore"],
+	nav a[aria-label="Premium"],
+	[aria-label="Timeline: Trending now"],
+	div:has(> [aria-label="Get Verified"]),
+	div:has(> [aria-label="Subscribe to Premium"]),
+	aside.r-1habvwh {
+		display: none !important;
+	}
+}
